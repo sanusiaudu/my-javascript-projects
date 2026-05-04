@@ -12,6 +12,7 @@ import DragAndDrop from "./Routes/DragAndDrop";
 import PasswordGenerator from "./Routes/PasswordGenerator";
 import TipCalculator from "./Routes/TipCalcuator";
 import DoubleRangeSlider from "./Routes/DoubleRangeSlider";
+import Timer from "./Routes/Timer";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/password-generator" element={<PasswordGenerator />} />
         <Route path="/tip-calculator" element={<TipCalculator />} />
         <Route path="/double-range-slider" element={<DoubleRangeSlider />} />
+        <Route path="/timer" element={<Timer />} />
       </Routes>
     </Router>
   );

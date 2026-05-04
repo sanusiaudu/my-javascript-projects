@@ -14,6 +14,7 @@ function Home() {
     { path: "/password-generator", label: "Password Generator" },
     { path: "/tip-calculator", label: "Tip Calculator" },
     { path: "/double-range-slider", label: "Double Range Slider" },
+    { path: "/timer", label: "Timer" },
   ];
 
   return (
