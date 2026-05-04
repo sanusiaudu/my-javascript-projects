@@ -15,6 +15,7 @@ function Home() {
     { path: "/tip-calculator", label: "Tip Calculator" },
     { path: "/double-range-slider", label: "Double Range Slider" },
     { path: "/timer", label: "Timer" },
+    { path: "/gradient-color-generator", label: "Gradient Color Generator" },
   ];
 
   return (

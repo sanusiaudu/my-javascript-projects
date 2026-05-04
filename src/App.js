@@ -13,6 +13,7 @@ import PasswordGenerator from "./Routes/PasswordGenerator";
 import TipCalculator from "./Routes/TipCalcuator";
 import DoubleRangeSlider from "./Routes/DoubleRangeSlider";
 import Timer from "./Routes/Timer";
+import GradientColorGenerator from "./Routes/GradientColorGenerator";
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
         <Route path="/tip-calculator" element={<TipCalculator />} />
         <Route path="/double-range-slider" element={<DoubleRangeSlider />} />
         <Route path="/timer" element={<Timer />} />
+        <Route
+          path="/gradient-color-generator"
+          element={<GradientColorGenerator />}
+        />
       </Routes>
     </Router>
   );
