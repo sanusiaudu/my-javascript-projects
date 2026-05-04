@@ -16,6 +16,7 @@ function Home() {
     { path: "/double-range-slider", label: "Double Range Slider" },
     { path: "/timer", label: "Timer" },
     { path: "/gradient-color-generator", label: "Gradient Color Generator" },
+    { path: "/image-zoom", label: "Image Zoom on Hover" },
   ];
 
   return (

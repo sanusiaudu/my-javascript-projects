@@ -14,6 +14,7 @@ import TipCalculator from "./Routes/TipCalcuator";
 import DoubleRangeSlider from "./Routes/DoubleRangeSlider";
 import Timer from "./Routes/Timer";
 import GradientColorGenerator from "./Routes/GradientColorGenerator";
+import ImageZoom from "./Routes/ImageZoom";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           path="/gradient-color-generator"
           element={<GradientColorGenerator />}
         />
+        <Route path="/image-zoom" element={<ImageZoom />} />
       </Routes>
     </Router>
   );
