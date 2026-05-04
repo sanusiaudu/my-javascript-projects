@@ -12,6 +12,7 @@ function Home() {
     { path: "/image-accordion", label: "Image Accordion" },
     { path: "/drag-and-drop", label: "Drag and Drop" },
     { path: "/password-generator", label: "Password Generator" },
+    { path: "/tip-calculator", label: "Tip Calculator" },
   ];
 
   return (

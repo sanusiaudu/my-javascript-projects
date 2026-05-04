@@ -10,6 +10,7 @@ import FlashlightEffect from "./Routes/FlashlightEffect";
 import ImageAccordion from "./Routes/ImageAccordion";
 import DragAndDrop from "./Routes/DragAndDrop";
 import PasswordGenerator from "./Routes/PasswordGenerator";
+import TipCalculator from "./Routes/TipCalcuator";
 
 function App() {
   return (
@@ -23,9 +24,10 @@ function App() {
         <Route path="/age-calculator" element={<AgeCalculator />} />
         <Route path="/otp-generator" element={<OTPGenerator />} />
         <Route path="/flashlight-effect" element={<FlashlightEffect />} />
-        <Route path="/image-accordion" element={<ImageAccordion />} />"
-        <Route path="/drag-and-drop" element={<DragAndDrop />} />"
-        <Route path="/password-generator" element={<PasswordGenerator />} />"
+        <Route path="/image-accordion" element={<ImageAccordion />} />
+        <Route path="/drag-and-drop" element={<DragAndDrop />} />
+        <Route path="/password-generator" element={<PasswordGenerator />} />
+        <Route path="/tip-calculator" element={<TipCalculator />} />
       </Routes>
     </Router>
   );
