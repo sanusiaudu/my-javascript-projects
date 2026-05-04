@@ -13,6 +13,7 @@ function Home() {
     { path: "/drag-and-drop", label: "Drag and Drop" },
     { path: "/password-generator", label: "Password Generator" },
     { path: "/tip-calculator", label: "Tip Calculator" },
+    { path: "/double-range-slider", label: "Double Range Slider" },
   ];
 
   return (
