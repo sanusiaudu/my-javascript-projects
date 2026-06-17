@@ -17,6 +17,7 @@ function Home() {
     { path: "/timer", label: "Timer" },
     { path: "/gradient-color-generator", label: "Gradient Color Generator" },
     { path: "/image-zoom", label: "Image Zoom on Hover" },
+    { path: "/image-sliding-puzzle", label: "Image Sliding Puzzle " },
   ];
 
   return (

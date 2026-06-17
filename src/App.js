@@ -15,6 +15,7 @@ import DoubleRangeSlider from "./Routes/DoubleRangeSlider";
 import Timer from "./Routes/Timer";
 import GradientColorGenerator from "./Routes/GradientColorGenerator";
 import ImageZoom from "./Routes/ImageZoom";
+import SlidingPuzzle from "./Routes/ImageSlidingPuzzle";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           element={<GradientColorGenerator />}
         />
         <Route path="/image-zoom" element={<ImageZoom />} />
+        <Route path="/image-sliding-puzzle" element={<SlidingPuzzle />} />
       </Routes>
     </Router>
   );
