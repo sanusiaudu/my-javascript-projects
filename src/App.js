@@ -21,6 +21,7 @@ import SortableList from "./Routes/Sortablelist";
 import DraggableImageSlider from "./Routes/DraggableImageSlider";
 import InternetSpeedTest from "./Routes/InternetSpeedTest";
 import MemeGenerator from "./Routes/MemeGenerator";
+import DiceRoller from "./Routes/DiceRoller";
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
         />
         <Route path="/internet-speed-test" element={<InternetSpeedTest />} />
         <Route path="/meme-generator" element={<MemeGenerator />} />
+        <Route path="/dice-roller" element={<DiceRoller />} />
       </Routes>
     </Router>
   );
