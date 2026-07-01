@@ -19,6 +19,7 @@ function Home() {
     { path: "/image-zoom", label: "Image Zoom on Hover" },
     { path: "/image-sliding-puzzle", label: "Image Sliding Puzzle " },
     { path: "/color-guess-game", label: "Color Guessing Game" },
+    { path: "/sortable-list", label: "Sortable List" },
   ];
 
   return (

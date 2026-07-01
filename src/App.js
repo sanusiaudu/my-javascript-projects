@@ -17,6 +17,7 @@ import GradientColorGenerator from "./Routes/GradientColorGenerator";
 import ImageZoom from "./Routes/ImageZoom";
 import SlidingPuzzle from "./Routes/ImageSlidingPuzzle";
 import ColorGuessGame from "./Routes/ColorGuessGame";
+import SortableList from "./Routes/Sortablelist";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route path="/image-zoom" element={<ImageZoom />} />
         <Route path="/image-sliding-puzzle" element={<SlidingPuzzle />} />
         <Route path="/color-guess-game" element={<ColorGuessGame />} />
+        <Route path="/sortable-list" element={<SortableList />} />
       </Routes>
     </Router>
   );
