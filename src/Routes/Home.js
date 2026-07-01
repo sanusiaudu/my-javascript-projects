@@ -24,6 +24,10 @@ function Home() {
     { path: "/internet-speed-test", label: "Internet Speed Test" },
     { path: "/meme-generator", label: "Meme Generator" },
     { path: "/dice-roller", label: "Dice Roller" },
+    {
+      path: "/password-strenght-background",
+      label: "Password Strength Background",
+    },
   ];
 
   return (

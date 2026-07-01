@@ -22,6 +22,7 @@ import DraggableImageSlider from "./Routes/DraggableImageSlider";
 import InternetSpeedTest from "./Routes/InternetSpeedTest";
 import MemeGenerator from "./Routes/MemeGenerator";
 import DiceRoller from "./Routes/DiceRoller";
+import PasswordStrengthBackground from "./Routes/PasswordStrenghtBackground";
 
 function App() {
   return (
@@ -56,6 +57,10 @@ function App() {
         <Route path="/internet-speed-test" element={<InternetSpeedTest />} />
         <Route path="/meme-generator" element={<MemeGenerator />} />
         <Route path="/dice-roller" element={<DiceRoller />} />
+        <Route
+          path="/password-strenght-background"
+          element={<PasswordStrengthBackground />}
+        />
       </Routes>
     </Router>
   );
