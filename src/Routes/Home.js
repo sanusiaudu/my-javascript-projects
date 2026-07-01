@@ -21,6 +21,7 @@ function Home() {
     { path: "/color-guess-game", label: "Color Guessing Game" },
     { path: "/sortable-list", label: "Sortable List" },
     { path: "/draggable-image-slider", label: "Draggable Image Slider" },
+    { path: "/internet-speed-test", label: "Internet Speed Test" },
   ];
 
   return (

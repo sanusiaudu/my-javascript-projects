@@ -19,6 +19,7 @@ import SlidingPuzzle from "./Routes/ImageSlidingPuzzle";
 import ColorGuessGame from "./Routes/ColorGuessGame";
 import SortableList from "./Routes/Sortablelist";
 import DraggableImageSlider from "./Routes/DraggableImageSlider";
+import InternetSpeedTest from "./Routes/InternetSpeedTest";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
           path="/draggable-image-slider"
           element={<DraggableImageSlider />}
         />
+        <Route path="/internet-speed-test" element={<InternetSpeedTest />} />
       </Routes>
     </Router>
   );
