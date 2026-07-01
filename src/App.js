@@ -20,6 +20,7 @@ import ColorGuessGame from "./Routes/ColorGuessGame";
 import SortableList from "./Routes/Sortablelist";
 import DraggableImageSlider from "./Routes/DraggableImageSlider";
 import InternetSpeedTest from "./Routes/InternetSpeedTest";
+import MemeGenerator from "./Routes/MemeGenerator";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
           element={<DraggableImageSlider />}
         />
         <Route path="/internet-speed-test" element={<InternetSpeedTest />} />
+        <Route path="/meme-generator" element={<MemeGenerator />} />
       </Routes>
     </Router>
   );

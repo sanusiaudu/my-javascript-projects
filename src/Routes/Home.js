@@ -22,6 +22,7 @@ function Home() {
     { path: "/sortable-list", label: "Sortable List" },
     { path: "/draggable-image-slider", label: "Draggable Image Slider" },
     { path: "/internet-speed-test", label: "Internet Speed Test" },
+    { path: "/meme-generator", label: "Meme Generator" },
   ];
 
   return (
