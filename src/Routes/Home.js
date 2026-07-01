@@ -20,6 +20,7 @@ function Home() {
     { path: "/image-sliding-puzzle", label: "Image Sliding Puzzle " },
     { path: "/color-guess-game", label: "Color Guessing Game" },
     { path: "/sortable-list", label: "Sortable List" },
+    { path: "/draggable-image-slider", label: "Draggable Image Slider" },
   ];
 
   return (

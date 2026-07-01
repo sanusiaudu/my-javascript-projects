@@ -18,6 +18,7 @@ import ImageZoom from "./Routes/ImageZoom";
 import SlidingPuzzle from "./Routes/ImageSlidingPuzzle";
 import ColorGuessGame from "./Routes/ColorGuessGame";
 import SortableList from "./Routes/Sortablelist";
+import DraggableImageSlider from "./Routes/DraggableImageSlider";
 
 function App() {
   return (
@@ -45,6 +46,10 @@ function App() {
         <Route path="/image-sliding-puzzle" element={<SlidingPuzzle />} />
         <Route path="/color-guess-game" element={<ColorGuessGame />} />
         <Route path="/sortable-list" element={<SortableList />} />
+        <Route
+          path="/draggable-image-slider"
+          element={<DraggableImageSlider />}
+        />
       </Routes>
     </Router>
   );
